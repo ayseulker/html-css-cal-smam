@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--
+    * a etiketi link oluşturmak için kullanılır
+    * href içerisine gitmek istediğimiz linki yazıyoruz
+    * target="_blank" ile farklı sayfada açılmasına yardımcı olur.
+    * ol(ordinary list) = sayıyla alt alta sıralanır
+    * ul(unordinary list) = nokta nokta alt alta sıralanır
+    * ol içerisine type="I" yapıldığında roma rakamlarıyla sıralanır
+    * ol içerisine type="1" yapıldığında normal rakamlarla sıralanır
+    * ol içerisine type="a" yapıldığında a-b-c şeklinde sıralanır sıralanır
+-->
+
+<body>
+    <div>
+        Google gitmek için <a href="https://www.google.com/" target="_blank">tıklayınız</a>
+
+        <a href="https://www.youtube.com/watch?v=3g9ZBTATiSw&list=PLURN6mxdcwL_dk2ftGRrvt4R2TqfIUysy&index=11"
+            target="_blank">
+            <img src="/lesson5/images/youtube-icon.png" alt="İcon bulunamadı" width="50" height="50" />
+        </a>
+    </div>
+
+    <div>
+        <ul>
+            <li>Çay</li>
+            <li>Kahve</li>
+            <li>Oralet</li>
+        </ul>
+        <ol type="1">
+            <li>Çay</li>
+            <li>Kahve</li>
+            <li>Oralet</li>
+        </ol>
+    </div>
+
+    <div>
+        <ol>
+            <li>
+                İç Donanım Bilimleri
+                <ol type="I">
+                    <li>Anakart</li>
+                    <li>İşlemci</li>
+                    <li>Bellek</li>
+                </ol>
+            </li>
+            <li>
+                Dış Donanım Bilimleri
+                <ol type="1">
+                    <li>
+                        Monitor
+                        <ol type="a">
+                            <li>LCD</li>
+                            <li>LED</li>
+                        </ol>
+                    </li>
+                    <li>Klavye</li>
+                    <li>Fare</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>

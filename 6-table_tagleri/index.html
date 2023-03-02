@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--
+    *table = tablo oluşturmak için kullanılır
+    * tr satır oluşturma
+    * th kalın yazılmış sütün oluşturma-başlık
+    * border = çerçeve oluşturur
+    * td = satıra sütün oluşturmaya yardımcı olur
+    * td colspan "3 "= satıra sütün oluşturmaya yardımcı olur ve kaç tane sütünun birleşmesi şeklinde oluşturulacağına karar verir
+    * td rowpan "3 "= satıra sütün oluşturmaya yardımcı olur ve satır birleşmesine yardımcı olur ve kaç satır birleştirileceğine karar verir
+-->
+
+<body>
+    <div>
+        <table border="10">
+            <tr>
+                <th colspan="3">Kişisel bilgiler</th>
+
+            </tr>
+            <tr>
+                <td rowspan="2">Soyisim</td>
+                <td>Ülker</td>
+                <td>27</td>
+            </tr>
+            <tr>
+
+                <td>Ülker</td>
+                <td>27</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table border="1">
+            <tr>
+                <th colspan="3">Product</th>
+            </tr>
+            <tr>
+                <td>No</td>
+                <td>P.Name</td>
+                <td>P.Count</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pen</td>
+                <td rowspan="3">50</td>
+            <tr>
+                <td>2</td>
+                <td>Book</td>
+            <tr>
+                <td>3</td>
+                <td>Dust</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
